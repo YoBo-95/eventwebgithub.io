@@ -1,0 +1,44 @@
+a:link, a:visited
+		{
+			background-color: black;
+			color: white;
+			padding: 14px 25px;
+			text-align: center;
+			display: inline-block;
+			margin-left: 80px;
+			border-radius: 20px;
+			margin-bottom: 20px;
+			margin-top: 60px;
+			padding-top: 20px;
+			position: relative;
+			bottom: 50px;
+			text-decoration: none;
+		}
+
+		a:hover, a:active
+		{
+			background-color: black;
+			color: grey;
+		}
+
+
+.header {
+	width: 1270px;
+	height: 150px;
+}
+body{
+			background-image: url(https://i.ytimg.com/vi/N-YHdSy2Lt8/maxresdefault.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;
+
+		}
+
+footer{
+			background-color: black;
+			height: 60px;
+			color: whitesmoke;
+			padding-top: 50px;
+			padding-bottom: 20px;
+		}

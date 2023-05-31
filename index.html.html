@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="event.css">
+	 <script>
+    function updateDateTime() {
+      var currentDate = new Date();
+      var dateElement = document.getElementById("date");
+      var timeElement = document.getElementById("time");
+
+      // Format the date
+      var options = { year: 'numeric', month: 'long', day: 'numeric' };
+      var formattedDate = currentDate.toLocaleDateString(undefined, options);
+
+      // Format the time
+      var formattedTime = currentDate.toLocaleTimeString();
+
+      // Update the HTML elements
+      dateElement.innerHTML = formattedDate;
+      timeElement.innerHTML = formattedTime;
+    }
+
+    // Update the date and time every second
+    setInterval(updateDateTime, 1000);
+  </script>
+</head>
+<header>
+	<img class="LOGO" src="C:\Users\DSP\Downloads\y__2_-removebg-preview.png" width="120px" height="100px" style="position: relative;right: 150px;">
+	<a href="content.html">About Us</a>
+	<a href="ticketform.html">Ticket</a>
+	<a href="gallery01.html">Gallery</a>
+	<a href="logo.html">Event Poster</a>
+	<a href="https://www.google.com/maps/place/Sherubtse+College/@27.2864054,91.5227679,16.18z/data=!4m6!3m5!1s0x375c73345a4c4fe1:0xf6de3f2306d7a1ec!8m2!3d27.2867812!4d91.52359!16zL20vMDIzMzdw" target="_blank" >Location</a><br>
+</header><br>
+<body>
+
+	<p style="background-color: black; color:white; width: 150px;">Date: <span id="date"></span></p>
+  <p style="background-color:black; color:white; width:150px;">Time: <span id="time"></span></p>
+	<h1 style="text-align: center; font-size: 50px;"><mark>Sherubtse Music Festival</mark></h1>
+	<br>
+	<div><h2> <mark>About Us</mark></h2>
+	<p style="font-size: 20px; background-color: whitesmoke;">We are pleased to announce that from 20 May,2023 till 27 May,2023, we will be hosting a music event in the Sherubtse college auditorium. There will be dance performing by Sherubtse College student. In addition Sonam Wangchen and Kuenzang Chogyel also known as Chogo. And you guys can book our tickect through online and payment can be done through: <mark>MBOB/e-PAY/T-PAY/M-PAY</mark></p>
+	<div class="gallery">
+		<img src="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/1c/74/5f/1c745f1f-4290-372c-a5af-d58357defbe4/pr_source.png/643x0w.jpg">
+		<img src="https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/36/82/c7/3682c7ec-4f4a-43b7-2500-17576f829918/source/256x256bb.jpg">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP2VmWlOnYcPOfFLNmZj92YuVBKvuj5Uq0Yg&usqp=CAU">
+		<img src="https://www.remitbhutan.bt/images/carousel/tbank.jpg">
+	</div>
+</div>
+<p><img style="position: relative; left: 70px;" src="https://i.scdn.co/image/ab67706c0000da84b0b79c9baf36e0f85898d17b" width="300px" height="300px"><img style="position: relative; left: 85px;" src="C:\Users\DSP\Downloads\Black Yellow Modern Music Festival Event Ticket (1).png" width="500px" height="200px">
+<img style="position: relative; left: 100px;" src="https://cdn.hunthalloween.com/events5/banners/1e6355364c51c6d6a7b45cbdb14b7bb1c7c9cfde1d7f0cd271240a393b4de72b-rimg-w1200-h867-gmir.jpg?v=1675369885" width="300px" height="300px" ></p>
+
+<img style="position: relative; left: 70px;" src="https://i1.sndcdn.com/artworks-5SWLVrDfw9vx-0-t500x500.jpg" width="300px" height="300px">
+<iframe class="gmap_iframe" width="300px" height="300px" style="position: relative; left: 175px;" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Sherubtse college&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+
+<img style="position: relative; left: 290px;" src="https://i.ytimg.com/vi/8-VHaJVa2A8/maxresdefault.jpg" width="300px"height="300px">
+
+
+	<footer>
+		<p style="text-align:center; position: relative; bottom: 50px;">CONTACT US</p>
+		<p style="text-align:center; position: relative; bottom: 50px;">+975_77351187</p>
+		<p style="text-align:center; position: relative; bottom: 50px;">098746372</p>
+		<p style="text-align:center; position: relative; bottom: 50px;">robinyeshey97@gmail.com</p>
+		
+
+	</footer>
+</body>
+</html>

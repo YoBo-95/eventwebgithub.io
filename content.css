@@ -1,0 +1,80 @@
+a:link, a:visited
+{
+	background-color: whitesmoke;
+	color: black;
+	padding: 15px 25px;
+	text-align: center;
+	display: inline-block;
+	margin-left: 50px;
+	margin-bottom:50px ;
+	margin-top:20px ;
+	padding-top:15px ;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+a: hover, a:active
+{
+	background-color: grey;
+	color: black;
+}
+
+header{
+	background-image: url(https://document-export.canva.com/mzVyE/DAFiTEmzVyE/13/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20230507%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230507T101921Z&X-Amz-Expires=75183&X-Amz-Signature=b982c578e08198e44fe203905848860998102229feeeb6f15b9b8246bf60e0d6&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2008%20May%202023%2007%3A12%3A24%20GMT);
+	background-repeat: repeat-x;
+	background-position: 0,0,20px;
+	background-color: black;
+	color: whitesmoke;
+	height: 60px;
+	padding-top:40px;
+	padding-bottom: 80px;
+	padding-left: 20px;
+	padding-right: 40px;
+	box-shadow: 0 0 20px;
+	text-align: center;
+}
+
+.logo {
+	position: absolute;
+	left:27px;
+	top: 30px;
+	z-index: -1;
+}
+
+body {
+	background-image: url(https://i.ytimg.com/vi/N-YHdSy2Lt8/maxresdefault.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.gallery {
+			display: flex;
+			flex-wrap: wrap;
+		}
+.gallery img {
+		height: 200px;
+		width: 200px;
+		margin: 10px;
+		border-radius: 20px;
+		float: center;
+}
+.button{
+	background-color: black;
+	color: whitesmoke;
+	padding:10px;
+}
+footer{
+		background-color: whitesmoke;
+		height: 80px;
+		color: black;
+		padding-top: 50px;
+		padding-bottom: 20px;
+		}
+@media screen and (max-width:600px) {
+	input[type=text], select, textarea {
+		width: 100%;
+	}
+}
+
